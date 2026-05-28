@@ -1,3 +1,15 @@
+/* ____________________________________
+    
+"Wishing Well" Style Sheet   
+    
+Features:
+    CSS variables for easy theming
+    Responsive typography
+    Basic utility classes
+    Common component style
+    Mobile-first approach
+____________________________________*/
+
 /* ===== RESET & BASE STYLES ===== */
 :root {
     --primary-color: #3498db;
