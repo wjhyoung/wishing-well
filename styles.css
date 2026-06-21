@@ -12,13 +12,13 @@ ____________________________________*/
 
 /* ===== RESET & BASE STYLES ===== */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --dark-color: #2c3e50;
+    --primary-color: #FF4885;
+    --secondary-color: #D0FFE2;
+    --dark-color: #10288C;
     --light-color: #ecf0f1;
-    --danger-color: #e74c3c;
+    --danger-color: #FF520B;
     --warning-color: #f39c12;
-    --success-color: #2ecc71;
+    --success-color: #FF41E5;
     --border-radius: 4px;
     --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
