@@ -1,3 +1,5 @@
+<!-- WISHING WELL ! html file -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,20 +8,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wishing Well</title>
 
-    <!-- Link styles -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/scripts.js" as="script">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Wishing Well</h1>
+            <header class="site-header">
+                <div class="container">
+                    <div class="header-content">
+                        <!-- Brand -->
+                        <a href="/" class="brand">
+                            <span class="logo">YourBrand</span>
+                            <span class="product-name">SaaS</span>
+                        </a>
+
+                        <!-- Navigation -->
+                        <nav class="main-nav">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+                                <li class="nav-item"><a href="/features" class="nav-link">Features</a></li>
+                                <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
+                                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Auth buttons -->
+                        <div class="auth-buttons">
+                            <a href="/login" class="btn btn-outline">Log in</a>
+                            <a href="/signup" class="btn btn-primary">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </header>
 
         <!-- Landing page -->
         <main>
             <section class="card">
-                <h2>Dream Big</h2>
+                <h1>Dream Big</h1>
                 <p>Wishing Well is a low-data note taking app and prompt constructor.</p>
                 <p>Keep track of text, documents, and images in one convenient location.</p>
                 <p>Ask questions the right way with a user-friendly prompt editor.</p>
@@ -39,7 +82,9 @@
                         <input type="text" id="user-name" name="user-name">
                     </p>
                     <p>
-                        <label for="number">Enter a number between 1 and 100. If your number is even, congratulations! you will be signed in to Wishing Well! If your number is odd, dang! you didn't succeed, you are still a guest in this page. Enjoy the about section :p</label>
+                        <label for="number">Enter a number between 1 and 100. If your number is even, congratulations!
+                            you will be signed in to Wishing Well! If your number is odd, dang! you didn't succeed, you
+                            are still a guest in this page. Enjoy the about section :p</label>
                         <input type="text" id="number" name="number">
                     </p>
                     <button class="btn" id="sign-in">Submit to sign in :D</button>
